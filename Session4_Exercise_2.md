@@ -4,7 +4,7 @@ This is a reference of Code for Session 4 Exercise.
 ## Session 4 Exercise – Translation
 In this exercise we will translate the texts into German
 
-### Update your i18n.properties file 
+### Update your ``i18n.properties`` file 
 
 ```csv
 # This is the resource bundle for zbootcamp
@@ -36,7 +36,7 @@ btnCancelOrder=Cancel Order
 
 ```
 
-### Replace the hardcoded labels in your xml file
+### Replace the hardcoded labels and use i18n text values in your xml file
 
 ```xml
 <filterbar:filterGroupItems>
@@ -75,13 +75,11 @@ btnCancelOrder=Cancel Order
                 
 ```
 
-
-
 ### Create i18n.properties for German texts
-Duplicate the i18n.properties file and rename the second one as i18n_de.properties
+Duplicate the ``i18n.properties`` file and rename the second one as ``i18n_de.properties``
 
 ### Translate to German
-Translate the English values in the i18n_de.properties file with German values. You may use any kind of translation service, such as Google Translate.
+Translate the English values in the i18n_de.properties file with German values. You may use any kind of translation service, such as [Google Translate](https://translate.google.com/)
 
 ```csv
 title=Bestellungen anzeigen
